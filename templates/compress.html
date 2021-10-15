@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Upload your Resume for Parsing</title>
+  </head>
+  <body>
+    {% extends "template.html" %} {% block content %}
+
+    <h1>Resume for Parser</h1>
+    <form method="POST" action="/process" enctype="multipart/form-data">
+      <p>
+        Upload Your Files(upto 10 MB, in PDF):<input
+          type="file"
+          name="file"
+          accept="pdf/*"
+          required
+        />
+      </p>
+      <p><input type="submit" value="Submit" /></p>
+    </form>
+    <p>Powered By Flask</p>
+    {% endblock %}
+  </body>
+</html>
