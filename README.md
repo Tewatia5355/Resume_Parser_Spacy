@@ -51,7 +51,8 @@ PARSED RESUME EXAMPLE
 Image demonstarting how spaCy is used for Entity Recognition in Resumes
 ![Methodology](https://camo.githubusercontent.com/8f34408181d3e8dc80c60a39b86e54760c200bff74fbf6074cd5958cb0c96c65/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f313630302f312a645f6e33477250646358485235545336396b2d596c672e706e67)
 
-NER, spaCy and optimiser SGD is used in creation of this project
+NER, spaCy and optimiser SGD is used in creation of this project.
+
 ![Using NER](https://miro.medium.com/max/978/1*DIQkCDmuE7PUaNa7VzucuQ.png)
 
 ## License
