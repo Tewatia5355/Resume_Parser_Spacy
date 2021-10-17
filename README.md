@@ -1,5 +1,7 @@
 ## Resume parser using spaCy
 
+Bugs: Currently it works on single column resume, will increase dataset including multi-column resume for training model soon!
+
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 Live Link: [heroku link]
